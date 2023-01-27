@@ -1,0 +1,78 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    /* background-color: #D4D4D4; */
+    font-weight: bold;
+}
+
+body {
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    background-size: 376px 376px;
+    animation: bg 10s infinite linear;
+}
+@keyframes bg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 376px -376px;
+  }
+}
+
+.page-title{
+    text-align: center;
+    vertical-align: middle;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+h1 {
+    font-size: 64px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: 'Itim', cursive;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+}
+
+.translator-area {
+    /* width: 90%; */
+    text-align: center;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 300px;
+    max-height: 70%;
+}
+
+.translator-el {
+    /* display: flex;
+    flex-direction: column; */
+    margin: auto;
+    flex-basis: auto;
+}
+
+.translator-button {
+    flex-basis: 100px;
+}
+
+.translator-el textarea {
+    width: 95%;
+    font-size: 15px;
+    resize: none;
+}
+
+.source-container textarea {
+    background-color: #FCE8F1;
+}
+
+.target-container textarea {
+    background-color: #F1F6E4;
+}
+
+input {
+  vertical-align: middle;
+  margin: auto;
+}

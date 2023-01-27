@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px){
+  .translator-area{
+    flex-flow: column;
+  }
+
+  input {
+    transform: rotate(90deg);
+  }
+
+  .translator-button {
+      flex-basis: 0px;
+      margin: 20px;
+  }
+}
+
+
+@media screen and (min-width: 481px){
+}
