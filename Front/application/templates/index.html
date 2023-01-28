@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/style.css">
+        <!-- <link rel="stylesheet" href="../static/css/style.css"> -->
+        <link rel="stylesheet" href="static/css/responsive.css">
+        <!-- <link rel="stylesheet" href="../static/css/responsive.css"> -->
+        <title>Linked-Ling</title>
+        <title></title>
+    </head>
+    <body>
+        <div class="page-title">
+            <h1>Linked-Ling</h1>
+            言葉で繋がる翻訳アプリ
+        </div>
+        <form class="translator-area" method="post">
+            <div class="translator-el source-container">
+                English
+                <textarea id="js-src-textarea" name="source-text" rows="8" cols="80">{{src}}</textarea>
+            </div>
+            <div class="translator-el translator-button">
+                <!-- <input type="image" name="submit" src="static/img/right.png" class="btn" width="40" height="40"> -->
+                <input type="image" name="submit" src="../static/img/right.png" class="btn" width="40" height="40">
+            </div>
+            <div class="translator-el target-container">
+                日本語
+                <textarea id="js-tgt-textarea" name="target-text" rows="8" cols="80">{{tgt}}</textarea>
+            </div>
+        </form>
+
+        <!-- <script src="static/js/resize.js"></script> -->
+        <script src="../static/js/resize.js"></script>
+    </body>
+</html>
