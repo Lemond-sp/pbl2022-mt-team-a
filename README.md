@@ -8,3 +8,4 @@
 ```
 pip install -r requirements.txt
 ```
+*Python・notebookどちらのコードも配布
