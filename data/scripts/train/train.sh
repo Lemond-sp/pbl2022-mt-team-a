@@ -1,5 +1,5 @@
 #!/bin/bash
-# 16.9
+
 rm -r ../../../results/base/
 mkdir -p ../../../results/base/
 

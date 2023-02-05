@@ -1,7 +1,5 @@
 #!/bin/bash
-# max-tokens :4096 から500
-# update-freq : 50 - 50*8
-# --ddp-backend=no_c10d　追加した
+
 mkdir -p ../../results/big/
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 fairseq-train \
