@@ -59,5 +59,6 @@ cd [ngrokをインストールして解凍したディレクトリ]
 ./ngrok http 5000
 python app.py
 ```
-
+### 使用例
+![](data/image/app_exp%20_news.png)
 事前学習まで行ったコードはcolabディレクトリ以外を参照
