@@ -18,5 +18,13 @@
 ```
 pip install -r requirements.txt
 ```
+## データの準備
+検証・学習データのwmt20のデータセットをダウンロード
+```
+sacrebleu -t wmt20 -l en-ja --echo src > wmt.test.en
+sacrebleu -t wmt20 -l en-ja --echo ref > wmt.test.ja
+sacrebleu -t wmt20/dev -l en-ja --echo src > wmt.valid.en
+sacrebleu -t wmt20/dev -l en-ja --echo ref > wmt.valid.ja
+```
 
 *Python・notebookどちらのコードも配布
