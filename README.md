@@ -4,20 +4,19 @@
 - 英日機械翻訳アプリケーションの開発
 - wmt20 ニュース記事における英日翻訳タスク
 - JParaCrawl v3.0(big)をfine-tuningしたもので評価
+- 学習データはnews-crawl(ja.2021)を逆翻訳したもの
+
+## Dataset
+
+| 学習データ  | 検証データ | 評価データ  |
+| ------------- | ------------- | ------------- |
+|news-crawl(ja.2021)を逆翻訳  | wmt20(en)  | wmt20(en)  |
+| 500,000  |  1,998 |  1,000|
 
 ## Setup
 仮想環境作成後、以下のコードを実行してください
 ```
 pip install -r requirements.txt
 ```
+
 *Python・notebookどちらのコードも配布
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
