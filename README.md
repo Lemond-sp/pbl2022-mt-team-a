@@ -59,4 +59,5 @@ cd [ngrokをインストールして解凍したディレクトリ]
 ./ngrok http 5000
 python app.py
 ```
-*Python・notebookどちらのコードも配布
+
+事前学習まで行ったコードはcolabディレクトリ以外を参照
